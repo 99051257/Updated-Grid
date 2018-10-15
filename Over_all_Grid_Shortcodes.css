@@ -1,0 +1,108 @@
+/* font-family: 'Lato', sans-serif; */
+.Header { grid-area: header; }
+.Menu { grid-area: menu; }
+.Left { grid-area: left; }
+.Right { grid-area: right; }
+.Footer { grid-area: footer; }
+
+.grid-container {
+	display: grid;
+	grid-template-areas:
+		'header header header menu menu menu'
+		'left left left right right right'
+		'footer footer footer footer footer footer';
+	grid-gap: 1px;
+	padding: 0px;
+	margin-left: 45px;
+	margin-right: 45px;
+}
+.grid-container > .Header {
+	background-image: url('header_bg.png');
+	background-size: 825px 400px;
+	background-repeat: no-repeat;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+}
+.logo {
+	float: left;
+	margin-left: 50px;
+}
+.grid-container > .Menu {
+	background-image: url('header_bg.png');
+	background-size: 1100px 400px;
+	background-repeat: no-repeat;
+	font-family: 'Lato', sans-serif;
+	text-align: right;
+	padding: 20px 0;
+	font-size: 21px;
+}
+.Home {
+	text-decoration: none;
+	margin-top: 0px;
+	margin-right: 40px;
+	text-align: right;
+	color: black;
+}
+.Autos {
+	text-decoration: none;
+	margin-top: 0px;
+	margin-right: 40px;
+	text-align: right;
+	color: black;
+}
+.Kleding {
+	text-decoration: none;
+	margin-top: 0px;
+	margin-right: 40px;
+	text-align: right;
+	color: black;
+}
+.Blog {
+	text-decoration: none;
+	margin-top: 0px;
+	margin-right: 40px;
+	text-align: right;
+	color: black;
+}
+.Gallery {
+	text-decoration: none;
+	margin-top: 0px;
+	margin-right: 40px;
+	text-align: right;
+	color: black;
+}
+.Shortcodes {
+	text-decoration: none;
+	margin-top: 0px;
+	margin-right: 40px;
+	text-align: right;
+	color: black;
+}
+.Contact {
+	text-decoration: none;
+	margin-top: 0px;
+	margin-right: 57px;
+	text-align: right;
+	color: black;
+}
+.grid-container > .Left {
+	float: left;
+	margin: 100px 100px 100px 50px;
+}
+.grid-container > .Right {
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	padding: 20px 0;
+	font-size: 15px;
+	margin: 110px 110px 110px 25px; 
+}
+.grid-container > .Footer {
+	background-image: url('footer_bg.png');
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 20px;
+	color: white;
+}
